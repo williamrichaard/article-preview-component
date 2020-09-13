@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+
+<body>
+
+  <main class="outer-container flex">
+    <section class="inner-container">
+      <div class="img-container">
+        <img src='./images/drawers.jpg' class='drawers-img' alt='Drawers' />
+      </div>
+      <div class='details-container'>
+
+        <h1 class="bold-text ">
+          Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home
+        </h1>
+        <p class='details-text'>
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
+        <div class='contact-info-container flex'>
+          <div class="contact-img-container flex">
+            <img src="./images/avatar-michelle.jpg" alt='Michelle' />
+          </div>
+          <div class='contact'>
+            <p class='bold-text no-margin small'>Michelle Appleton</p>
+            <p class='details-text no-margin small'>28 Jun 2020</p>
+
+          </div>
+        </div>
+        <div class="button-wrapper" id="button">
+          <button title='share' aria-labelledby="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path fill="#6E8098"
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+            </svg>
+          </button>
+        </div>
+        <div class='share-details'>
+          <p>SHARE</p>
+          <div class='icons'>
+            <a>
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+            </a>
+            <a>
+              <img src="./images/icon-twitter.svg" alt="twitter" />
+            </a>
+            <a>
+              <img src="./images/icon-pinterest.svg" alt="pinterest" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <section class="attribution">
+    <h3>Challenge by <a rel="noopener noreferrer" target="_blank"
+        href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">William Richard</a>.</h3>
+  </section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js"></script>
+
+</html>
